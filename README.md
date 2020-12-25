@@ -22,6 +22,6 @@ With a pre-trained model, to train a supervised linear classifier on frozen feat
 `python main_lincls.py --arch resnet18 --num_cls 10 --batch_size 256 --lr 30.0 --weight_decay 0.0`<br/>`--pretrained [your checkpoint path] [Root directory of dataset where directory cifar-10-batches-py exists]`
 <br/><br/>
 Linear classification results on CIFAR10 using this repo with one GPU:
-| Model | Pre-train<br/>epochs | Top-1 acc.<br/>(paper) | Top-1 acc.<br/>(ours)||
+| Model | Pre-train<br/>epochs | Top-1 acc.<br/>(paper) | Top-1 acc.<br/>(ours)| Pre-train<br/>weights |
 | :---: | :---: | :---: | :---:| :---: |
 |ResNet-18| 800 | 91.8 | 91.94 | [download](https://drive.google.com/file/d/17_0uXiTbeUsRhwI0TDgGnj45eLWmXO2c/view?usp=sharing) |
