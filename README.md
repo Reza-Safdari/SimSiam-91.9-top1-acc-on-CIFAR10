@@ -24,4 +24,4 @@ With a pre-trained model, to train a supervised linear classifier on frozen feat
 Linear classification results on CIFAR10 using this repo with one GPU:
 | Model | Pre-train<br/>epochs | Top-1 acc.<br/>(paper) | Top-1 acc.<br/>(ours)||
 |--------  | :---: | :---: | :---:|
-|ResNet-18| 800 | 91.8 | 91.94 | [download](https://drive.google.com/file/d/17_0uXiTbeUsRhwI0TDgGnj45eLWmXO2c/view?usp=sharing) |
+|ResNet-18| 800 | 91.8 | 91.94 | [download](https://drive.google.com/file/d/17_0uXiTbeUsRhwI0TDgGnj45eLWmXO2c/view?usp=sharing) 
