@@ -5,7 +5,7 @@ This is an unofficial Pytorch implementation of the paper [Exploring Simple Siam
 <br/>KNN classification accuracy and the linear evaluation results on CIFAR10 using this repo are matched with the reported results on "CIFAR Experiments" section in the paper.
 
 
-## Unsupervised training
+## Self-Supervised training
 To do unsupervised pre-training of a  CIFAR variant of ResNet-18 model on CIFAR10 in an single-gpu machine, run:<br/><br/>
 `python main.py --data_root [Root directory of dataset where directory cifar-10-batches-py exists]`<br/> `--arch resnet18 --learning_rate 0.06 --epochs 800 --weight_decay 5e-4 --momentum 0.9 --batch_size 512 --gpu 0`
 <br/><br/>This script uses all the default hyper-parameters as described in the paper.
@@ -24,4 +24,4 @@ With a pre-trained model, to train a supervised linear classifier on frozen feat
 Linear classification results on CIFAR10 using this repo with one GPU:
 | Model | Pre-train<br/>epochs | Top-1 acc.<br/>(paper) | Top-1 acc.<br/>(ours) 
 |--------  | :---: | :---: | :---:
-|ResNet-18| 800 | 91.8 | 91.94 |
+|ResNet-18| 800 | 91.8 | 91.94 | [download](https://drive.google.com/file/d/17_0uXiTbeUsRhwI0TDgGnj45eLWmXO2c/view?usp=sharing)
