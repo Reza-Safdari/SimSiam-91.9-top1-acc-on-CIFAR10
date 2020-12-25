@@ -11,9 +11,11 @@ To do unsupervised pre-training of a  CIFAR variant of ResNet-18 model on CIFAR1
 <br/><br/>This script uses all the default hyper-parameters as described in the paper.
 
 ## Observations
-The figure below shows the training loss plot.
+The figure below shows the training loss plot.<br/>
+<img src="imgs/loss-plot.png">
 
-KNN classifier can serve as a monitor of the training progress. Left figure plots the validation accuracy of a KNN classifier (k=1) using this repo. Right figure is coresponding plot which was reported in "CIFAR Experiments" section in the paper.
+KNN classifier can serve as a monitor of the training progress. Left figure plots the validation accuracy of a KNN classifier (k=1) using this repo. Right figure is coresponding plot which was reported in "CIFAR Experiments" section in the paper.<br/>
+|<img src="imgs/top1-acc (ours).png">|<img src="imgs/top1-acc (paper).png">
 
 ## Linear evaluation
 With a pre-trained model, to train a supervised linear classifier on frozen features/weights, run:<br/><br/>
